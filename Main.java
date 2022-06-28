@@ -43,13 +43,62 @@ public class Main {
         System.out.println("Объем параллелепипеда равен" +V);
         System.out.println("Площадь поверхности равна" +S);
         */
-
         //Begin8. Даны два числа a и b. Найти их среднее арифметическое: (a + b)/2.
         int a = 3;
         int b = 4;
         int d = 2;
         double c = (double) (a+b) / d;
         System.out.println("Среднее арифметическое" + c);
+        */
+       // Begin9. Даны два неотрицательных числа a и b. Найти их среднее геометрическое,
+        // то есть квадратный корень из их произведения: √a·b.
+        double a = 3.45;
+        double b = 7.2;
+        double g_avg = Math.sqrt(a * b);
+        System.out.println(g_avg);*/
+       // Begin10. Даны два ненулевых числа. Найти сумму, разность, произведение ичастное их квадратов.
+        int a=25;
+        int b=45;
+        int s=(a*a)+(b*b);
+        int r=(b*b)-(a+a);
+        int p=(a*a)*(a*a);
+        double c=(a*a)/(double)(b*b);
+        System.out.println("Сумма: "+s);
+        System.out.println("Разность: "+r);
+        System.out.println("Произведение: "+p);
+        System.out.println("Частное: "+c);
+        */
+        //Begin11. Даны два ненулевых числа. Найти сумму, разность, произведение и частное их модулей.
+        int a=-5;
+        int b=24;
+        a=Math.abs(a);
+        b=Math.abs(b);
+        double s=a+b;
+        System.out.println("Сумма модулей"+(int)s);
+        s=a-b;
+        System.out.println("Разность модулей"+(int)s);
+        s=a*b;
+        System.out.println("Произведение модулей"+(int)s);
+        s=(double)a/b;
+        System.out.println("Частное модулей"+s);
+        */
+        //Begin22. Поменять местами содержимое переменных A и B и вывести новые значения A и B.
+        int a=3;
+        int b=10;
+        int c=a;
+        a=b;
+        b=c;
+        System.out.println("a="+a+"b="+b);*/
+        //Begin12. Даны катеты прямоугольного треугольника a и b. Найти его гипотенузу c и периметр P:
+        c =√a 2 + b 2,P = a + b + c.
+        int a =
+        int b =
+        int c =
+        int p=
+
+
+
+
 
     }
 }
